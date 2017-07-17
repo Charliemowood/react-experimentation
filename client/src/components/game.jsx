@@ -7,13 +7,14 @@ export const Game = (props) => {
   return (
     <div>
       <h1>Guess who is behind the card?</h1>
-      <img src="../images/card.png" onClick={makeDoggy}/>
+      <p>Ask yes or no questions to find out what is behind the card.</p>
+      <img src="../images/card.png" onClick={makeCat}/>
     </div>
   )
 
 }
 
-function makeDoggy(e) {
+function makeCat(e) {
 e.target.setAttribute('src', 'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-kitty.jpg');
-e.target.setAttribute('alt', 'doggy')
+e.target.setAttribute('alt', 'cat')
 }
