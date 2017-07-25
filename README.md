@@ -9,7 +9,7 @@ npm install
 
 2. Start the server:
   ```bash
-  npm install
+  nodemon server.js
   ```
 3. Start webpack:
   ```bash
